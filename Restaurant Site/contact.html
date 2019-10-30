@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<!--
+    Name: Joseph Restua
+    Date Created: October 29, 2019
+    Most recent revision: October 29, 2019
+-->
+<html lang="en"> 
+<head> 
+<title>Contact Me</title>  
+</head> 
+
+<body>
+    
+    <header>
+        <h1><center>Joe's Grille</center></h1>
+    </header>
+    
+    <nav>
+        <hr /> 
+            <p>
+                <a href="index.html">Home</a>
+                &nbsp;
+                <a href="menu.html">Menu</a>
+                &nbsp;
+                <a href="contact.html">Contact Us</a>
+            </p>
+        <hr />
+    </nav>
+
+<section align = "center";>
+        <br />
+        <form action="submit.html" method="POST">
+            <!-- Name label and textbox -->
+            <label for="name">Name:</label>
+            <input type="text" id="Name" name="Name">
+            <br />
+            <br />
+
+            <!-- Email label and textbox -->
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="Email">
+            <br />
+            <br />
+
+            <!-- Phone Number label and textbox -->
+            <label for="phone">Phone:</label>
+            <input type="text"id="phone" name="Phone">
+            <br />
+            <br />
+
+            <!-- Dropdown menu -->
+            <label for="contact">Reason for Inquiry:</label>
+            <select id="contact" name="contact">
+                <option value="default" selected>--Select One--</option>
+                <option value="catering">Catering</option>
+                <option value="privateParty">Private Party</option>
+                <option value="feedBack">Feed Back</option>
+                <option value="other">Other</option>
+            </select>
+            <br />
+            <br />
+
+            <!-- Text Area -->
+            <label for="info">Additional Information</label>
+            <textarea id="info"></textarea>
+            <br />
+            <br />
+
+            <!-- Radio buttons --> 
+            <label for="haveYou">Have you been to the restaraunt?:</label>
+            <input type="radio" id="choice1" name="questionnaire" value="yes">
+            <label for="choice1">Yes</label>
+            <input type="radio" id="choice2" name="questionnaire" value="no">
+            <label for="choice2">No</label>
+            <br />
+            <br />
+
+            <!-- Check list -->
+            <label for="bestDay">Best days to contact you:</label>
+            <input type="checkbox" id="m" name="day" value="m">
+            <label for="frontEnd">M</label>
+            <input type="checkbox" id="t" name="day" value="t">
+            <label for="backEnd">T</label>
+            <input type="checkbox" id="w" name="day" value="w">
+            <label for="database">W</label>
+            <input type="checkbox" id="th" name="day" value="th">
+            <label for="database">Th</label>
+            <input type="checkbox" id="f" name="day" value="f">
+            <label for="database">F</label>
+            <br />
+            <br />
+
+            
+            <!-- Submit button -->
+            <input type="submit" name="sendRequest" value="Send Request">
+        </form>
+
+</section>
+
+    <footer>
+        <hr />
+        <center>
+            <p>111 Mason Blvd, Manalpan, NJ, 07726</p>
+            <p>732-903-4785</p>
+        </center>
+    </footer>
+        
+</body> 
+</html>
